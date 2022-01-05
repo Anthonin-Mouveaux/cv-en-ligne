@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* img {
+    height: 65vh;
+} */
+
+#mainContent {
+    background-image: url(../assets/img/gradienta-7brhZmwXn08-unsplash.jpg);
+}
+
+#skill {
+    background-color: #FCC0C0;
+    opacity: 0.85;
+}
+
+.progress-bar.progressBlue {
+    background-color: #81CAC8;
+}
+
+.progress-bar.progressPink {
+    background-color: #FCC6C4;
+}
+
+#portfolio {
+    background-color: #FBD2CD;
+    opacity: 0.85;
+}
+
+#about {
+    background-color: #99D2CE;
+    opacity: 0.85;
+}
+
+#contact {
+    background-color: #75C5C5;
+    opacity: 0.85;
+}
