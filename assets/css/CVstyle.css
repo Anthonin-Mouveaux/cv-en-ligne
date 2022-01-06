@@ -3,17 +3,53 @@ body {
     margin: 0;
 }
 
-/* img {
-    height: 65vh;
-} */
-
 #mainContent {
-    background-image: url(../assets/img/gradienta-7brhZmwXn08-unsplash.jpg);
+    background-image: url(../img/gradienta-7brhZmwXn08-unsplash.jpg);
+    background-size: 100% 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-transform: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #636363;
+}
+
+header .row {
+    margin-top: 5vh;
+}
+
+img {
+    height: 50vh;
+    width: 90%;
+}
+
+main.container {
+    padding: 0;
 }
 
 #skill {
     background-color: #FCC0C0;
     opacity: 0.85;
+}
+
+.progress {
+    height: 14px;
+}
+
+.progress-bar{
+    text-align: right;
+}
+
+.progress-bar i::before {
+    overflow: visible;
+    z-index: 3;
 }
 
 .progress-bar.progressBlue {
@@ -37,4 +73,9 @@ body {
 #contact {
     background-color: #75C5C5;
     opacity: 0.85;
+}
+
+button {
+    padding: 10px 50px;
+    background-color: #60BFC1;
 }
