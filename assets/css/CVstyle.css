@@ -26,7 +26,7 @@ header .row {
 }
 
 img {
-    height: 50vh;
+    height: 440px;
     width: 90%;
 }
 
@@ -78,4 +78,8 @@ main.container {
 button {
     padding: 10px 50px;
     background-color: #60BFC1;
+}
+
+@media screen AND (max-width: 992px) {
+    
 }
