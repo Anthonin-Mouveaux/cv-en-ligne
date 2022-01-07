@@ -26,8 +26,7 @@ header .row {
 }
 
 img {
-    height: 440px;
-    width: 90%;
+    width: 80%;
 }
 
 main.container {
@@ -80,6 +79,16 @@ button {
     background-color: #60BFC1;
 }
 
+#backArrow {
+    position: fixed;
+    bottom: 15px;
+    right: 20%;
+}
+
 @media screen AND (max-width: 992px) {
-    
+    #backArrow {
+        position: fixed;
+        bottom: 5px;
+        right: 2%;
+    }
 }
